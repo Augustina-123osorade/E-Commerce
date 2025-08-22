@@ -87,7 +87,7 @@ export const Route = createRootRoute({
 
           {/* Mobile menu dropdown */}
           <div
-            className={`fixed top-0 left-0 h-full w-2/3 bg-gray-900 text-white shadow-lg p-6 z-50 transform transition-transform duration-300 md:hidden ${
+            className={`fixed top-0 left-0 h-full w-2/3 bg-white-900 text-black shadow-lg p-6 z-50 transform transition-transform duration-300 md:hidden ${
               isOpen ? "translate-x-0" : "-translate-x-full"
             }`}
           >
